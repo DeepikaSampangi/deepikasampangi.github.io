@@ -1,33 +1,35 @@
-body{
-margin: 0;
-padding: 0;
-height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
-h1{
-font-family: 'Dancing Script', cursive;
-font-size: 6em
+h1 {
+  font-family: "Cookie", cursive;
+  font-weight: 2;
+  font-size: 6em;
 }
 
-h2, h3, h4{
-font-family: 'Tinos', serif;
-font-size: 3em
+h2,
+h3,
+h4 {
+  font-family: "Tinos", serif;
+  font-size: 3em;
 }
 
-p{
-font-family: 'Courgette', cursive;
+p {
+  font-family: "Courgette", cursive;
 }
 
-
-#particles-js{
+#particles-js {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: #000;
-  z-index: 100%
+  background-color: #2d2d2d;
+  z-index: 100%;
 }
 
-#hello-div{
+#hello-div {
   position: absolute;
   color: #ffffff;
   text-align: center;
@@ -35,46 +37,44 @@ font-family: 'Courgette', cursive;
   margin: 0 auto;
   width: 100%;
   padding-top: 200px;
-
 }
 
-#content-div{
+#content-div {
   position: absolute;
   color: #ffffff;
   text-align: center;
   z-index: 20;
   margin: 0 auto;
   width: 100%;
-
 }
 
 #footer-div {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:80px;
-   color: #ffffff;
-   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: #ffffff;
+  text-align: center;
 }
 
-#footer-div #social>a {
-    font-size: 20px;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
-    margin: 0 8px;
-    color: #fff;
-    opacity: 0.75
+#footer-div #social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
 }
 
-#footer-div #copyright{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom:25px;
-    opacity: 0.5;
-    font-size: 13px;
+#footer-div #copyright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  opacity: 0.5;
+  font-size: 13px;
 }
