@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-family: "Cookie", cursive;
+  font-family: "Great Vibes", cursive;
   font-weight: 2;
   font-size: 6em;
 }
@@ -14,12 +14,12 @@ h1 {
 h2,
 h3,
 h4 {
-  font-family: "Tinos", serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 3em;
 }
 
 p {
-  font-family: "Courgette", cursive;
+  font-family: "Oxygen", sans-serif;
 }
 
 #particles-js {
@@ -37,7 +37,7 @@ p {
   z-index: 10;
   margin: 0 auto;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 #footer-div {
